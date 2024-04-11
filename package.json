@@ -1,0 +1,27 @@
+{
+  "name": "basic-express-app",
+  "version": "1.0.0",
+  "description": "A basic express app for testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc --build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZandercraftGames/Basic-Express-App.git"
+  },
+  "author": "Zandercraft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZandercraftGames/Basic-Express-App/issues"
+  },
+  "homepage": "https://github.com/ZandercraftGames/Basic-Express-App#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.4.5"
+  }
+}
